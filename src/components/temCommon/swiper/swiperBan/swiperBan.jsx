@@ -5,7 +5,6 @@ import BannerStyle from './bannerStyle';
 
 import Swiper from 'swiper/dist/js/swiper.js'
 
-
 export default class extends Component {
     render() {
         let { bannerList } = this.props;
@@ -33,7 +32,6 @@ export default class extends Component {
     }
     componentDidMount() {
         setTimeout(() => {
-            console.log(this.props)
             new Swiper('#dongcidaci', {
                 autoplay: true,
                 paginationClickable: true,

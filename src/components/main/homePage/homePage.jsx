@@ -63,7 +63,6 @@ class homePage extends Component {
                     <div className='icon1_box'>
                         {
                             this.props.Icon_list.map((item, index) => {
-                                console.log(item.toJS().name)
                                 return (
                                     <a key={index} href="JavaScript:void(0)" onClick={this.goto.bind(this, this.state.list[index])}>
                                         <img src={item.get("pic")} alt="xx" />

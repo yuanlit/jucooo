@@ -8,7 +8,7 @@ class search extends Component {
     constructor() {
         super()
         this.state = {
-            tagList: ['千峰靓仔陶天伟','扫地僧邓东升','猫', '罗密欧与朱丽叶', '摇滚红与黑', '小猪佩奇', '林宥嘉', '西城男孩'],
+            tagList: ['猫', '罗密欧与朱丽叶', '摇滚红与黑', '小猪佩奇', '林宥嘉', '西城男孩'],
             tag: '',
             tatal: '',
             dataList: []
